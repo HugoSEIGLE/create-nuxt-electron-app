@@ -82,7 +82,7 @@ $ cd create-nuxt-electron-app
 
 ```bash
 # You might have more dependencies than this, but put all of them
-# inside devDependencies as thay are not needed once the app is packaged. 
+# inside devDependencies as thay are not needed once the app is packaged.
 "dependencies": {},
 "devDependencies": {
   "nuxt": "^2.14.0"
@@ -114,7 +114,7 @@ $ yarn add electron-serve # or npm i electron-serve
   "electron-builder": "^22.8.0",
   "nuxt": "^2.14.0",
   "wait-on": "^5.2.0"
-}  
+}
 ```
 
 #### 7) Download the app icon
@@ -246,7 +246,7 @@ app.on("activate", function () {
 
 # You should end up with something similar
 "scripts": {
-  "dev": "nuxt",
+  "dev": "nuxt dev",
   "build": "nuxt build",
   "start": "nuxt start",
   "generate": "nuxt generate",

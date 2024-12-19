@@ -5,7 +5,6 @@
   "main": "main.js",
   "author": "Souleh Shaikh <author.souleh@thegeekytutor.com>",
   "license": "MIT",
-  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/soulehshaikh99/create-nuxt-electron-app"
@@ -25,7 +24,7 @@
     "mac": {}
   },
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
